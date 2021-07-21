@@ -34,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #6dcdd3;
   text-decoration: none;
 }
 
@@ -84,9 +84,10 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  border: 5px dashed #eaeaea;
+  border-radius: 1px;
+  /* transition: color 0.15s ease, border-color 0.15s ease; */
+  transition: border-radius 10s;
   width: 45%;
 }
 

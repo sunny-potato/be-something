@@ -1,0 +1,29 @@
+.dictionaryPage {
+  background: #c0e7f0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.dictionaryList {
+  margin-top: 30px;
+}
+
+.dictionaryEntry {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.dictionaryWord {
+  font-weight: 600;
+}
+
+.dictionaryDefinition {
+  font-size: 16px;
+  align-self: flex-end;
+}
